@@ -8,14 +8,14 @@
 #include <PubSubClient.h>
 
 // WIFI
-const char* ssid = "Sphericity";
-const char* password = "sheerazardupilot";
+const char* ssid = "wifiname";
+const char* password = "wifipassword";
 
 // HiveMQ Cloud credentials
 const char* mqtt_server = "7c4358d4d4fd4e66afdaf6c280bb5fc9.s1.eu.hivemq.cloud";
 const int mqtt_port = 8883; // SSL MQTT port
-const char* mqtt_user = "sheeraz";
-const char* mqtt_pass = "Sheeraz124578....";
+const char* mqtt_user = "***";
+const char* mqtt_pass = "****";
 
 // MQTT clients
 WiFiClientSecure espClient;
